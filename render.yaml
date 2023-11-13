@@ -1,11 +1,11 @@
 databases:
   - name: recipe
     databaseName: recipe
-    user: sazzadsaif
+    user: rupasaif
 
 services:
   - type: web
-    name: sazzadsaif
+    name: rupasaif
     runtime: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
